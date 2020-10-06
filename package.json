@@ -21,6 +21,10 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
+    "@embroider/compat": "^0.27.0",
+    "@embroider/core": "^0.27.0",
+    "@embroider/router": "^0.27.0",
+    "@embroider/webpack": "^0.27.0",
     "@glimmer/component": "^1.0.1",
     "@glimmer/tracking": "^1.0.0",
     "babel-eslint": "^10.1.0",
@@ -35,6 +39,7 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-uglify": "^3.0.0",
     "ember-data": "~3.20.0",
+    "ember-engines": "^0.8.6",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.0.1",
     "ember-load-initializers": "^2.1.1",
@@ -56,5 +61,10 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "ember-addon": {
+    "paths": [
+      "lib/my-engine"
+    ]
   }
 }
